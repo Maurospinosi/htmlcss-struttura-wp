@@ -6,6 +6,10 @@
 header{
   background-color: rgb(0,255,255);
   height: 300px;
+  width: 1000px;
+}
+.container{
+  width: 1000px;
 }
 main::after{
   clear: both;
@@ -23,6 +27,7 @@ main::after{
   background-color: #808000	;
   width: 28%;
   height: 350px;
+  position: relative;
 }
 section{
   float: left;
